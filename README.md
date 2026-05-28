@@ -23,6 +23,10 @@
 - 深色驾驶舱风格布局
 - 支持 `@st.cache_data` 数据缓存
 
+## 预览图
+<img width="2232" height="1202" alt="image" src="https://github.com/user-attachments/assets/bcbea974-0e1f-4d44-8a62-da3dec09d61b" />
+
+
 ## 运行方式
 
 ### 方式一：双击启动
