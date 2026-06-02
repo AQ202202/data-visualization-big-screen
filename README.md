@@ -5,6 +5,9 @@
 在线演示：
 [https://data-visualization-big-screen-wcsda4px4b2trrffg9rkuk.streamlit.app/](https://data-visualization-big-screen-wcsda4px4b2trrffg9rkuk.streamlit.app/)
 
+正式访问地址：
+[https://data-visualization-big-screen-wcsda4px4b2trrffg9rkuk.streamlit.app/](https://data-visualization-big-screen-wcsda4px4b2trrffg9rkuk.streamlit.app/)
+
 ## Preview
 
 <img width="2232" height="1202" alt="dashboard preview" src="https://github.com/user-attachments/assets/bcbea974-0e1f-4d44-8a62-da3dec09d61b" />
@@ -42,6 +45,12 @@ data-visualization-big-screen/
 
 ## Quick Start
 
+### Option 0: Open the Hosted Demo
+
+直接访问正式演示链接：
+
+[https://data-visualization-big-screen-wcsda4px4b2trrffg9rkuk.streamlit.app/](https://data-visualization-big-screen-wcsda4px4b2trrffg9rkuk.streamlit.app/)
+
 ### Option 1: Run Locally
 
 ```bash
@@ -49,7 +58,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-启动后访问：
+启动后本地访问：
 [http://127.0.0.1:8501](http://127.0.0.1:8501)
 
 ### Option 2: Windows One-Click Launch
@@ -94,4 +103,3 @@ streamlit run app.py
 - Streamlit
 - Plotly
 - Pandas
-
