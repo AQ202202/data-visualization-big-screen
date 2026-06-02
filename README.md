@@ -1,6 +1,7 @@
 # Global Superstore 销售经营驾驶舱
 
 基于 `Global Superstore` 数据集开发的 Streamlit 销售大屏，适合本地演示、项目交付和二次修改。
+https://data-visualization-big-screen-wcsda4px4b2trrffg9rkuk.streamlit.app/
 
 ## 项目结构
 
@@ -25,15 +26,17 @@
 
 ## 预览图
 <img width="2232" height="1202" alt="image" src="https://github.com/user-attachments/assets/bcbea974-0e1f-4d44-8a62-da3dec09d61b" />
+https://github.com/user-attachments/assets/5eec6aa0-b161-47f2-a523-ce4e084daed7
+
 
 
 ## 运行方式
 
 ### 方式一：双击启动
 
-直接双击：
+直接双击链接：
 
-`start_dashboard.bat`
+https://data-visualization-big-screen-wcsda4px4b2trrffg9rkuk.streamlit.app/
 
 ### 方式二：命令行启动
 
