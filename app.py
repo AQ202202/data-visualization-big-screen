@@ -1398,7 +1398,7 @@ with row1_center:
     build_animated_map_component(market_sales)
 
 with row1_right:
-    build_right_carousel_component([category_fig, product_fig, market_share_fig, market_bar_carousel_fig])
+    build_right_carousel_component([product_fig, category_fig, market_share_fig, market_bar_carousel_fig])
 
 row2_left, row2_center, row2_right = st.columns([1.18, 1.72, 1.30])
 with row2_left:
