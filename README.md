@@ -1,73 +1,97 @@
-# Global Superstore 销售经营驾驶舱
+# Global Superstore Sales Dashboard
 
-基于 `Global Superstore` 数据集开发的 Streamlit 销售大屏，适合本地演示、项目交付和二次修改。
-https://data-visualization-big-screen-wcsda4px4b2trrffg9rkuk.streamlit.app/
+基于 `Global Superstore` 数据集开发的 Streamlit 销售经营驾驶舱。
 
-## 项目结构
+在线演示：
+[https://data-visualization-big-screen-wcsda4px4b2trrffg9rkuk.streamlit.app/](https://data-visualization-big-screen-wcsda4px4b2trrffg9rkuk.streamlit.app/)
+
+## Preview
+
+<img width="2232" height="1202" alt="dashboard preview" src="https://github.com/user-attachments/assets/bcbea974-0e1f-4d44-8a62-da3dec09d61b" />
+
+演示视频：
+[Dashboard Demo](https://github.com/user-attachments/assets/5eec6aa0-b161-47f2-a523-ce4e084daed7)
+
+## Features
+
+- 6 个核心 KPI：总销售额、总利润、订单数、利润率、客户数、客单价
+- 左侧筛选器：年份范围、Market、Category
+- 深色驾驶舱风格布局
+- 多专题分析图表：
+  - 月度销售、利润与利润率趋势
+  - 地区销售分布
+  - 品类销售构成
+  - Top 10 产品利润排名
+  - 客户类型分布
+  - 折扣与利润关系
+- 数据缓存：`@st.cache_data`
+- 支持后续接入退货表并扩展退货分析
+
+## Project Structure
 
 ```text
-数据大屏/
+data-visualization-big-screen/
 ├─ app.py
 ├─ requirements.txt
 ├─ start_dashboard.bat
 ├─ README.md
-├─ data/
-│  └─ Global Superstore.csv
-└─ .gitignore
+├─ .gitignore
+└─ data/
+   └─ Global Superstore.csv
 ```
 
-## 功能概览
+## Quick Start
 
-- 6 个核心 KPI 指标
-- 左侧筛选器：年份、Market、Category
-- 销售趋势、市场分布、品类构成、利润排行、客户分布、折扣利润关系等专题图表
-- 深色驾驶舱风格布局
-- 支持 `@st.cache_data` 数据缓存
-
-## 预览图
-<img width="2232" height="1202" alt="image" src="https://github.com/user-attachments/assets/bcbea974-0e1f-4d44-8a62-da3dec09d61b" />
-https://github.com/user-attachments/assets/5eec6aa0-b161-47f2-a523-ce4e084daed7
-
-
-
-## 运行方式
-
-### 方式一：双击启动
-
-直接双击链接：
-
-https://data-visualization-big-screen-wcsda4px4b2trrffg9rkuk.streamlit.app/
-
-### 方式二：命令行启动
-
-在项目目录执行：
+### Option 1: Run Locally
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-启动后浏览器访问：
-
+启动后访问：
 [http://127.0.0.1:8501](http://127.0.0.1:8501)
 
-## 数据说明
+### Option 2: Windows One-Click Launch
+
+直接双击：
+
+`start_dashboard.bat`
+
+## Data
 
 - 主数据文件：`data/Global Superstore.csv`
-- 当前项目仅包含销售主表
-- 如果后续补充退货明细表，并命名为包含 `return` 的 CSV 文件放入 `data/` 目录，应用会自动识别并计算退货率
+- 当前仓库默认包含销售主表
+- 如果后续补充退货明细 CSV，并命名为包含 `return` 的文件放入 `data/` 目录，应用可自动识别并用于退货相关分析
 
-## 交付建议
+## Deployment
 
-发给雇主时，建议直接打包整个项目文件夹，而不是只发 `app.py`。  
-最少应包含以下文件：
+本项目已可直接部署到 Streamlit Community Cloud。
+
+部署参数：
+
+- Repository: `AQ202202/data-visualization-big-screen`
+- Branch: `main`
+- Main file path: `app.py`
+
+## Delivery Notes
+
+如果需要发给客户或雇主，建议直接提供以下任一方式：
+
+- 在线演示链接
+- GitHub 仓库链接
+- 完整项目压缩包
+
+最少交付内容建议包含：
 
 - `app.py`
 - `requirements.txt`
 - `README.md`
 - `data/Global Superstore.csv`
 
-## 备注
+## Tech Stack
 
-- 当前页面已按本地横屏驾驶舱样式完成适配
-- 若雇主希望线上访问，可进一步部署到 Streamlit Community Cloud、服务器或内网环境
+- Streamlit
+- Plotly
+- Pandas
+
