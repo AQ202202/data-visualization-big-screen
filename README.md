@@ -5,9 +5,6 @@
 在线演示：
 [https://data-visualization-big-screen-wcsda4px4b2trrffg9rkuk.streamlit.app/](https://data-visualization-big-screen-wcsda4px4b2trrffg9rkuk.streamlit.app/)
 
-正式访问地址：
-[https://data-visualization-big-screen-wcsda4px4b2trrffg9rkuk.streamlit.app/](https://data-visualization-big-screen-wcsda4px4b2trrffg9rkuk.streamlit.app/)
-
 ## Preview
 
 <img width="2232" height="1202" alt="dashboard preview" src="https://github.com/user-attachments/assets/bcbea974-0e1f-4d44-8a62-da3dec09d61b" />
